@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interfaz de Pagos</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+    }
+
+    .section {
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 300px;
+      background-color: #f4f4f4;
+      border-radius: 10px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    .header .title {
+      font-weight: bold;
+    }
+
+    .header .user {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .header .user img {
+      width: 20px;
+      margin-right: 5px;
+    }
+
+    .button {
+      display: block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      background-color: #dc3545; /* Rojo */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .saldo {
+      margin-bottom: 20px;
+    }
+
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+
+    .input-container label {
+      margin-bottom: 5px;
+    }
+
+    .input-container input {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <div class="header">
+      <img src="https://via.placeholder.com/30" alt="Logo">
+      <span class="title">Sección de Pagos</span>
+      <div class="user">
+        <img src="https://via.placeholder.com/20" alt="Usuario">
+        <span>≡</span>
+      </div>
+    </div>
+
+    <h2>Saldo:</h2>
+    <div class="saldo">
+      $100.000
+    </div>
+
+    <button class="button">Registrar Cuenta</button>
+    <button class="button">Ver Cuentas</button>
+    <button class="button">Retirar</button>
+    <button class="button">Historial</button>
+  </div>
+
+  <div class="section">
+    <div class="header">
+      <img src="https://via.placeholder.com/30" alt="Logo">
+      <span class="title">Sección de Pagos</span>
+      <div class="user">
+        <img src="https://via.placeholder.com/20" alt="Usuario">
+        <span>≡</span>
+      </div>
+    </div>
+
+    <h2>Saldo:</h2>
+    <div class="saldo">
+      $100.000
+    </div>
+
+    <button class="button">Registrar Cuenta</button>
+    <button class="button">Ver Cuentas</button>
+    <button class="button">Retirar</button>
+    <button class="button">Recargar</button>
+    <button class="button">Historial</button>
+  </div>
+
+  <div class="section">
+    <div class="header">
+      <img src="https://via.placeholder.com/30" alt="Logo">
+      <span class="title">Sección de Pagos</span>
+      <div class="user">
+        <img src="https://via.placeholder.com/20" alt="Usuario">
+        <span>≡</span>
+      </div>
+    </div>
+
+    <h2>Saldo:</h2>
+    <div class="saldo">
+      $100.000
+    </div>
+
+    <h2>Cuentas:</h2>
+    <div class="input-container">
+      <input type="radio" name="account" id="account1" value="3214879568">
+      <label for="account1">3214879568</label>
+    </div>
+    <div class="input-container">
+      <input type="radio" name="account" id="account2" value="3152698741">
+      <label for="account2">3152698741</label>
+    </div>
+
+    <h2>¿Cuánto desea recargar?</h2>
+    <div class="input-container">
+      <input type="text" placeholder="Ingrese la cantidad">
+    </div>
+
+    <button class="button">Recargar</button>
+  </div>
+
+</body>
+</html>

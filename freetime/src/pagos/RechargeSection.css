@@ -1,0 +1,20 @@
+.section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

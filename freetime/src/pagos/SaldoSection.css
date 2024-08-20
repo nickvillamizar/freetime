@@ -1,0 +1,23 @@
+.section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .saldo {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
